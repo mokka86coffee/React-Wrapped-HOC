@@ -49,8 +49,8 @@ const ListWithChildren = withChildFunction(
 );
 
 const First = withData(ListWithChildren, getFirst);
-const Second = withData(ItemList, getSecond);
-const Third = withData(ItemList, getThird);
+const Second = withData(ListWithChildren, getSecond);
+const Third = withData(ListWithChildren, getThird);
 
 class App extends Component {
 
